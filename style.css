@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.top-text {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 1px;
+    background-color: rgba(255, 255, 255, 0.587);
+    line-height: 40px;
+    text-align: center;
+    margin-left: 35px;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row1 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.col1 {
+    display: flex;
+    width: 67%;
+    padding: 0px 20px 0px 0px;
+}
+
+.triangle {
+    position: absolute;
+    width: 25px;
+    height: 38px;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    background-color: #ffffff;
+    top: 50px;
+    left: 410px;
+
+}
+
+img {
+    width: 53%;
+    height: 300px;
+}
+
+.sub-col1 {
+    width: 47%;
+    background-color: #fff;
+}
+
+.col2 {
+    width: 33%;
+    height: 300px;
+    padding: 0px 20px 0px 0px;
+    background-color: #3280e4;
+}
+
+.row2 {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+
+.col3 {
+    display: flex;
+    width: 33%;
+    background-color: #5e63b4;
+    margin-right: 20px;
+}
+
+.col4 {
+    width: 67%;
+}
+
+.img2 {
+    padding-left: 355px;
+}
+
+.overlay {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    background: linear-gradient(to right, rgb(253, 123, 25,1), rgb(214, 82, 105,1),rgb(214, 82, 105,0));
+}
